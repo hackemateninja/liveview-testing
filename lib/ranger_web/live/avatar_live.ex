@@ -4,7 +4,7 @@ defmodule RangerWeb.AvatarLive do
   def render(assigns) do
     ~H"""
     <div class="flex justify-center">
-      <img class="avatar" src={@avatar_url} />
+      <img class="avatar rounded-lg" src={@avatar_url} />
     </div>
     """
   end
